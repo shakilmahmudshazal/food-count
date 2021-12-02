@@ -1,0 +1,23 @@
+body {
+  // background-color :#009FFF;
+  // height: 100%;
+  // background: #009FFF;  /* fallback for old browsers */
+  // background: -webkit-linear-gradient(to bottom, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
+  // background: linear-gradient(to bottom, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  @media (min-width: $desktop-breakpoint) {
+    background-image: url("/images/bgdesk.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    background-attachment: fixed;
+  }
+  @media (max-width: $desktop-breakpoint - 0.01rem) {
+    background-image: url("/images/bg3.jpg");
+  }
+  // background: rgb(131,58,180);
+  // background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.center {
+  text-align: "center";
+}

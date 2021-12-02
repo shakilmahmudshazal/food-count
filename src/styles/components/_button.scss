@@ -1,0 +1,136 @@
+.button {
+  background: $blue;
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: $font-size-large;
+  font-weight: 300;
+  line-height: 1;
+  padding: $s-size;
+  text-decoration: none;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+
+
+.button-red {
+  background: rgb(116, 10, 10);
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: $font-size-large;
+  font-weight: 300;
+  line-height: 1;
+  padding: $s-size;
+  text-decoration: none;
+  margin: 20px;
+  border-radius: 20px;
+}
+
+.button--link {
+  background: #776764c7;
+  border-radius: 14px;
+  font-weight: 600;
+  font-size: 16px;
+
+}
+
+.button--secondary {
+  background: #888;
+}
+.button--secondary {
+  background: rgb(117, 9, 9);
+}
+.addCart{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 8px 4px;
+  border-radius: 54%;
+  font-weight: bold;
+}
+
+.removeCart{
+  background-color: #db4242;
+  border: none;
+  color: white;
+  padding: 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 4px;
+  border-radius: 54%;
+  font-weight: bold;
+}
+
+.box-item{
+  background-color: lightgrey;
+  width: 20px;
+  border: 10px solid green;
+  padding: 10px;
+  margin: 26px;
+  border-radius: 10px;
+}
+
+.purchaseButton{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 18px;
+}
+.cancelButton{
+  background-color: rgb(219, 44, 44); /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 24px;
+  cursor: pointer;
+  padding: 10px 24px;
+  border-radius: 18px;
+}
+.button-save{
+  background: green;
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1;
+  padding: 14px 14px;
+  border-radius: 10px;
+  text-decoration: none
+
+}
+
+.button-back{
+  background: #b35965;
+  border: none;
+  color: white;
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 1;
+  margin-right: 40px;
+  padding: 1.2rem;
+  border-radius: 10px;
+  margin-left: 0px;
+  text-decoration: none;
+
+}

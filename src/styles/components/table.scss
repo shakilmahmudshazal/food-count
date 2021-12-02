@@ -1,0 +1,17 @@
+.table{
+  background-color: whitesmoke;
+  width:100%;
+
+}
+
+.scrollable{
+  overflow:hidden;
+  overflow-y: scroll;
+  height:380px;
+  width:100%;
+
+}
+
+.fixed{
+  position: fixed;
+}

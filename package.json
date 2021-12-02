@@ -1,0 +1,58 @@
+{
+  "name": "foodcount_pwa",
+  "version": "2.2.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    "antd": "^3.26.9",
+    "css-loader": "0.28.4",
+    "express": "4.15.4",
+    "extract-text-webpack-plugin": "3.0.0",
+    "firebase": "4.2.0",
+    "history": "4.7.2",
+    "moment": "2.18.1",
+    "node-sass": "^4.13.0",
+    "normalize.css": "7.0.0",
+    "numeral": "2.0.6",
+    "react": "^16.12.0",
+    "react-addons-shallow-compare": "15.6.0",
+    "react-clear-cache": "^1.1.0",
+    "react-dates": "12.3.0",
+    "react-dom": "^16.12.0",
+    "react-modal": "3.11.1",
+    "react-redux": "5.0.5",
+    "react-router-dom": "4.1.2",
+    "react-scripts": "3.2.0",
+    "redux": "3.7.2",
+    "redux-mock-store": "1.2.3",
+    "redux-thunk": "2.2.0",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.18.2",
+    "uuid": "3.1.0",
+    "validator": "8.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}

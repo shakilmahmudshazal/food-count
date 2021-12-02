@@ -1,0 +1,27 @@
+.page-header {
+  background: #a43131;
+  margin-bottom: 3.2rem;
+  /* padding: 3.2rem 0; */
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 34%;
+  width: 32%;
+  border: 1px solid #050d10;
+  border-radius: 15px;
+}
+
+.page-header__actions {
+  margin-top: $m-size;
+  text-align: center;
+
+}
+
+.page-header__title {
+  font-weight: 300;
+  margin: 0;
+  color: #f1f1f1;
+  font-size: 20px;
+  span {
+    font-weight: 700;
+  }
+}

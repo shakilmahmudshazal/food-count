@@ -1,0 +1,51 @@
+[debug] [2021-12-02T14:05:11.279Z] ----------------------------------------------------------------------
+[debug] [2021-12-02T14:05:11.281Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-12-02T14:05:11.281Z] CLI Version:   9.23.0
+[debug] [2021-12-02T14:05:11.281Z] Platform:      win32
+[debug] [2021-12-02T14:05:11.281Z] Node Version:  v13.14.0
+[debug] [2021-12-02T14:05:11.283Z] Time:          Thu Dec 02 2021 20:05:11 GMT+0600 (East Kazakhstan Time)
+[debug] [2021-12-02T14:05:11.283Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-02T14:05:11.347Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-02T14:05:11.348Z] > authorizing via signed-in user (mdshakilmahmud517@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\personal\personalPractice\react\foodcount
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using test-d0194. 
+[debug] [2021-12-02T14:05:28.880Z] > refreshing access token with scopes: []
+[debug] [2021-12-02T14:05:28.881Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-02T14:05:29.276Z] <<< HTTP RESPONSE 200 {"date":"Thu, 02 Dec 2021 14:05:29 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-02T14:05:29.289Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/test-d0194 [none]
+[debug] [2021-12-02T14:05:29.950Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/test-d0194 403
+[debug] [2021-12-02T14:05:29.951Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/test-d0194 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-12-02T14:05:29.951Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-12-02T14:05:30.439Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:241:23)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Client.request (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\Dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project test-d0194. Please make sure the project exists and your account has permission to access it.

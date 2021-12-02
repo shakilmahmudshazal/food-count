@@ -1,0 +1,5 @@
+firebase deploy --only hosting
+firebase use foodcount-e830c
+firebase projects:list
+firebase deploy --only hosting
+firebase use test-d0194

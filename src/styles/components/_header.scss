@@ -1,0 +1,21 @@
+.header {
+ background: #ecdedbd9;
+  border-radius: 24px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.header__content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: $s-size 0;
+}
+
+.header__title {
+  color: white;
+  text-decoration: none;
+  h1 {
+    margin: 0;
+    font-size: 24px
+  }
+}
